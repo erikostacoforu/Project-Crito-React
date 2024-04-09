@@ -1,0 +1,55 @@
+
+.project-case {
+
+    .container {
+
+        .sektion-title {
+            text-align: center;
+            padding-top: 120px;
+            padding-bottom: 90px;
+
+            p {
+                margin-bottom: 20px;
+            }
+        }
+
+        .project-cases {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+
+            img {
+                height: auto;
+                width: 100%;
+            }
+
+            h3 {
+                padding-top: 40px;
+                padding-bottom: 16px;
+                margin: 0;
+                border-bottom: 1px solid #DAD9D3;
+            }
+
+            a {
+                display: block;
+                text-align: end;
+                text-decoration: none;
+                color: #191919;
+                font-family: 'Inter', sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                padding: 15px;
+
+                i {
+                    margin-left: 5px;
+                    font-size: 1.2em;
+                }
+            }   
+        }
+
+        .content-center {
+            margin-top: 50px;
+            margin-bottom: 90px;
+        }
+    }
+}

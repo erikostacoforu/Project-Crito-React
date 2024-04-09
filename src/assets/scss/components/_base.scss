@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Inter:wght@300;400;500;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.små-rubriker {
+    font-family: 'Inter', sans-serif;
+    color: #F94D1C;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.theme-knapp {
+    background-color: #f9d783;
+    border: 1px solid  #f9d783;
+    text-decoration: none;
+    color: #191919;
+    padding: 18px 30px;
+    font-weight: 600;
+    border-radius: 30px;
+    font-size: 16px;
+
+    i {
+        margin-left: 8px;
+        font-size: 1.1em; 
+    }
+
+    &:hover {
+        background-color: #191919;
+        color: rgb(208, 206, 206);
+        border-color: #191919;
+    }
+}
+
+.svart-knapp {
+    background-color: #191919;
+    border: 1px solid  #191919;
+    text-decoration: none;
+    color: rgb(208, 206, 206);
+    padding: 18px 30px;
+    font-weight: 600;
+    border-radius: 30px;
+    font-size: 16px;
+
+    i {
+        margin-left: 8px;
+        font-size: 1.1em; 
+    }
+
+    &:hover {
+        background-color: #f9d783;
+        color: #191919;
+        border-color: #f9d783;
+    }
+}
+
+.transparent-knapp {
+    background-color: transparent;
+    text-decoration: none;
+    color: #191919;
+    padding: 18px 30px;
+    font-weight: 600;
+    border-radius: 30px;
+    font-size: 16px;
+    border: 1px solid #191919;
+
+    i {
+        margin-left: 8px;
+        font-size: 1.1em; 
+    }
+
+    &:hover {
+        background-color: #191919;
+        color: rgb(208, 206, 206);
+    }
+}
+
+.content-center {
+    text-align: center;
+    align-items: center;
+}
+
+html, body {
+    color: #191919;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+.wrapp-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}

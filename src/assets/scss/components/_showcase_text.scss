@@ -1,0 +1,33 @@
+.showcase {
+
+    .showcase-middle-text {
+  
+        .container {
+            display: block;
+            text-align: center;
+
+                nav {
+                    padding-top: 105px;
+
+                    a {
+                        text-decoration: none;
+                        color: #191919;
+                        margin-right: 25px;
+                        font-weight: 300;
+
+                        &.active {
+                            font-weight: 500;
+                        }
+                    }
+                }
+            
+            .showcase-middle-headline {
+                font-size: 56px;
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700;
+                padding-bottom: 90px;
+                margin: 0;
+            }
+        }
+    }
+}

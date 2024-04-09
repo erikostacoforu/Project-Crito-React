@@ -1,0 +1,40 @@
+
+.news-update {
+    background-color: #F0EFE9;
+    position: relative;
+
+    .background-line3 {
+        position: absolute;
+        bottom: 60px;
+        right: 0;
+    }
+
+    .container {
+        
+        .news-update-line {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 105px;
+            padding-bottom: 105px;
+
+            h2 {
+                margin: 0;
+            }
+
+            .username-button {
+                margin-left: 200px;
+                background-color: #ffffff;
+                text-decoration: none;
+                color: #8c8c8c;
+                padding: 18px 55px;
+                font-weight: 400;
+                border-radius: 30px;
+                font-size: 16px;
+            }
+
+            .subscribe-button {
+                margin-right: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.about-company {
+
+    .container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        display: flex;
+        justify-content: space-between;
+        
+        .pic-with-qoute {
+            position: relative;
+
+            img {
+                margin-left: 60px;
+            }
+
+            .qoute-box {
+                position: absolute;
+                background-color: #BEEBFF;
+                width: 370px;
+                height: 180px;
+                top: 395px;
+                padding-top: 40px;
+                padding-left: 30px;
+
+                h4 {
+
+                    .founder-last {
+                        font-family: 'DM Sans', sans-serif;
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #F94D1C;
+                    }
+                }
+                
+                p {
+                   margin-top: 20px; 
+                }  
+            }
+        }
+
+        .content-about-company {
+            padding-left: 190px;
+            
+            p {
+                margin-bottom: 20px;
+            }
+
+            .about-company-text1 {
+                margin-top: 35px;
+            }
+
+            .about-company-text2 {
+                margin-top: 35px;
+                padding-bottom: 95px;
+            }
+
+            
+
+            .parent-knapp {
+                display: flex;
+
+                .intro-video-gap {
+                    margin-left: 40px;
+                }
+                
+                a {
+                    text-decoration: none;
+
+                    p {
+                        margin: 0;
+                        padding: 18px;
+                        color: #191919;
+                        font-weight: 600;
+                        font-size: 16px;
+                        
+
+                    }
+                }
+
+                .button-block {
+                    display: block;
+                    display: flex;
+                    border-radius: 30px;
+                    font-size: 60px;
+                    color: #191919;                      
+                } 
+            } 
+        }
+    }
+}

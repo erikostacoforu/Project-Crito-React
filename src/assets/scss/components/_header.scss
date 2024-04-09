@@ -1,0 +1,102 @@
+
+header {
+    background-color: #F0EFE9;
+    padding: 16px;
+    
+    .container {
+        display: flex;
+        gap: 70px;
+        justify-content: space-between;
+        align-items: center;
+
+        .top-meny {
+            flex: 1;
+        
+            .topp-info {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #DAD9D3;
+                padding-bottom: 12px;
+                align-items: center;
+            
+                    .kontakt-information {
+                        display: flex;
+                        align-items: center;
+                        
+
+                        .info-box {
+                            margin-right: 50px;
+                            border-right: 1px solid #DAD9D3;
+                            padding-right: 40px;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 300;
+                            font-size: 15px;
+
+                            i {
+                                margin-right: 3px;
+                                font-size: 1.3em;
+                                color: #4d4d4d;
+                            }
+                                &.last {
+                                    border: none;
+                        }
+                    }
+                }
+            }
+
+            .social-icons {
+                a {
+                    color: #191919;
+                    font-size: 1.3rem;
+                    margin-left: 12px;
+
+                    &:hover {
+                        color: #a4a0a0;
+                    }
+                    
+                }
+            }
+        }
+        
+        .main-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+
+            nav {
+                
+                a {
+                    color: #191919;
+                    margin-right: 35px;
+                    text-decoration: none;
+                    position: relative;
+                    display: inline-block;
+
+                    &.active {
+                        font-weight: 500;
+                    }
+
+                    &.active::after,
+                    &:hover::after {
+                        font-weight: 500;
+                        position: absolute;
+                        height: 2px;
+                        width: 16px;
+                        background-color: #191919;
+                        left: 50%;
+                        bottom: -3px;
+                        transform: translate((calc(50% - 15px)));
+                        content: '';
+
+                    }
+                }
+            }
+        }
+
+        .login-knapp {
+            padding-top: 13px;
+            padding-bottom: 13px;
+        }
+    }
+}

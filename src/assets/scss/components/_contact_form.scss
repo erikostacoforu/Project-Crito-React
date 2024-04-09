@@ -1,0 +1,60 @@
+.contact-form {
+
+    iframe {
+        margin-bottom: -0.5%;
+    }
+
+    .container {
+        background-color: #F0EFE9;
+        margin-bottom: 5%;
+        
+        h2 {
+            padding-top: 9%;
+            padding-bottom: 1%;
+        }
+
+        .errormessage {
+            text-align: center;
+            color: red;
+        }
+
+        .messageerror {
+            margin-left: 15%;
+            margin-top: 1%;
+            color: red;
+
+        }
+        
+        input {
+            display: block;
+            width: 75%;
+            justify-content: center;
+            margin-left: 12.5%;
+            padding: 18px 30px;
+            box-sizing: border-box;
+            border-radius: 40px;
+            border: 1px solid #F0EFE9;
+            margin-top: 1%; 
+
+            &:focus {
+                outline: 2px solid #a8a5a5;
+            }
+        }
+
+        .message-box {
+            padding-bottom: 10%;
+        }
+
+        .content-center2 {
+            padding-top: 5%;
+            padding-bottom: 8%;
+            text-align: center;
+
+            button {
+                display: block;
+                width: 75%;
+                margin-left: 12.5%;
+            }
+        }
+    }
+}

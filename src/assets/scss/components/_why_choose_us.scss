@@ -1,0 +1,58 @@
+.why-choose-us {
+    position: relative;
+    
+    .container {
+        padding-top: 60px;
+        background-color: #ffffff;
+        
+        .why-left-box {
+            width: 447px;
+            height: 630px;
+            
+            .why-choose-us-boxes {
+                    
+                .button-block {
+                    display: flex;
+                    font-size: 60px;
+                    color: #191919;                      
+                } 
+
+                i {
+                    margin-left: 10px;
+                    margin-top: 43px;
+
+                    h3 {
+                        margin: 0;
+                        margin-left: 25px;
+                        padding-top: 10px;
+                    }
+
+                    p {
+                        margin: 0;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin-left: 25px;
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+
+        .grey-box-under-picture {
+            width: 1057px;
+            height: 425px;
+            background-color: #F0EFE9;
+            position: absolute;
+            right: 0;
+            bottom: 0;     
+        }
+
+        img {
+            position: absolute;
+            right: 300px;
+            top: 90px;  
+            z-index: 1;
+        }
+    }
+}
